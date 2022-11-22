@@ -28,6 +28,6 @@
 |03|그리디|`김수빈`|
 
 ## 👩‍💻 To Slove
-|Date|Problem|
-|:---:|---|
-|2022.11.28|[도서관](https://www.acmicpc.net/problem/1461)|
+|Date|Algorithm|Problem|
+|:---:|---|---|
+|2022.11.28|그리디|[도서관](https://www.acmicpc.net/problem/1461)|
