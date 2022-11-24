@@ -34,6 +34,6 @@
 |Algorithm|Problem|
 |---|---|
 |그리디|[도서관](https://www.acmicpc.net/problem/1461)|
-|투 포인터|[수열](https://www.acmicpc.net/problem/2559)|
+|투 포인터|[수 고르기](https://www.acmicpc.net/problem/2230)|
 |에라토스테네스의 체|[제곱 ㄴㄴ 수](https://www.acmicpc.net/problem/1016)|
 ||[뉴스 클러스터링](https://school.programmers.co.kr/learn/courses/30/lessons/17677)|
