@@ -26,7 +26,7 @@
 ## 📚 Algorithm Docs
 |No.|Algorithm|Presenter|Link|
 |:---:|:---:|:---:|:---:|
-|01|에라토스테네스의 체|`김세진`|URL|
+|01|에라토스테네스의 체|`김세진`|[URL](https://github.com/RunToCoding/Algorithm-v2/blob/main/docs/01.%EC%97%90%EB%9D%BC%ED%86%A0%EC%8A%A4%ED%85%8C%EB%84%A4%EC%8A%A4%EC%9D%98%20%EC%B2%B4.md)|
 |02|투 포인터|`박주영`|URL|
 |03|그리디|`김수빈`|URL|
 
