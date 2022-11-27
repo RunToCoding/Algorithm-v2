@@ -24,16 +24,16 @@
         - 만약 풀지 못했지만 해결이 안되는 부분을 함께 찾고 싶다면?<br/>[Unsolved] ⬜️ BOJ.1461 도서관
 
 ## 📚 Algorithm Docs
-|No.|Algorithm|Presenter|Link|
-|:---:|:---:|:---:|:---:|
-|01|에라토스테네스의 체|`김세진`|[URL](https://github.com/RunToCoding/Algorithm-v2/blob/main/docs/01.%EC%97%90%EB%9D%BC%ED%86%A0%EC%8A%A4%ED%85%8C%EB%84%A4%EC%8A%A4%EC%9D%98%20%EC%B2%B4.md)|
-|02|투 포인터|`박주영`|URL|
-|03|그리디|`김수빈`|URL|
+|No.|Algorithm|Presenter|          Link           |
+|:---:|:---:|:---:|:-----------------------:|
+|01|에라토스테네스의 체|`김세진`|    [URL](./docs/01.에라토스테네스의 체.md)    |
+|02|투 포인터|`박주영`|           URL           |
+|03|그리디|`김수빈`| [URL](./docs/03.그리디.md) |
 
 ## 👩‍💻 To Slove
-|Algorithm|Problem|
-|---|---|
-|그리디|[도서관](https://www.acmicpc.net/problem/1461)|
-|투 포인터|[수 고르기](https://www.acmicpc.net/problem/2230)|
-|에라토스테네스의 체|[제곱 ㄴㄴ 수](https://www.acmicpc.net/problem/1016)|
-||[뉴스 클러스터링](https://school.programmers.co.kr/learn/courses/30/lessons/17677)|
+| Algorithm  |Problem|
+|------------|---|
+| 그리디        |[도서관](https://www.acmicpc.net/problem/1461)|
+| 투 포인터      |[수 고르기](https://www.acmicpc.net/problem/2230)|
+| 에라토스테네스의 체 |[제곱 ㄴㄴ 수](https://www.acmicpc.net/problem/1016)|
+|            |[뉴스 클러스터링](https://school.programmers.co.kr/learn/courses/30/lessons/17677)|
