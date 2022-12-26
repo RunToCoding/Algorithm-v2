@@ -1,6 +1,8 @@
 from sys import stdin, setrecursionlimit
 from collections import deque
 
+setrecursionlimit(10**9)
+
 def findLongBranch(graph, Node, visited):
     if Node not in graph: return 0 # 리프노드
 
