@@ -8,8 +8,7 @@ def findLongBranch(graph, Node, visited):
     for nextNode, edge in graph[Node].items():
         if visited[nextNode] == 0: # 다음 방문할 노드가 들린적 없으면
             visited[nextNode] = 1 #방문흔적 남김
-            branch = edge + findLongBranch(graph, nextNode, visited) # 그 하위 자식노드 들린 branch
-            if branch > maxBranch : maxBranch = branch
+            maxBranch = max(maxBranch, edge + findLongBranch(graph, nextNode, visited))  # 그 하위 자식노드 들린 branch
 
     return maxBranch
 
@@ -30,10 +29,15 @@ if __name__ == "__main__":
 
     pillar, branch = 0, 0 # 기둥, 가지
     rootNB = rootN # 기가노드
+    chkRootNb = True
     visited = [0]*(N+1)
     visited[rootN] = -1
     while True:
         if len(graph[rootNB]) > 1 : break
+        if len(graph[rootNB]) == 0 : 
+            chkRootNb = False
+            break
+        print("check  :", (rootNB, graph))
         adjNode, adjEdge = list(graph[rootNB].items())[0]
         del graph[adjNode][rootNB]
         rootNB = adjNode
@@ -41,8 +45,8 @@ if __name__ == "__main__":
         visited[rootNB] = -1  
     print("### 기둥노드 정보 : ", rootNB, pillar, visited)
     print("### 그래프 정보 : ", graph)
-
-    branch = findLongBranch(graph, rootNB, visited)
+    
+    if chkRootNb : branch = findLongBranch(graph, rootNB, visited)
 
     print("result ; ", pillar, branch)
     
