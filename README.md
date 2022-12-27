@@ -45,4 +45,6 @@
 | 에라토스테네스의 체 | [제곱 ㄴㄴ 수](https://www.acmicpc.net/problem/1016)                             |
 |            | [뉴스 클러스터링](https://school.programmers.co.kr/learn/courses/30/lessons/17677) |
 |DFS| [트리의 기둥과 가지](https://www.acmicpc.net/problem/20924)                         |
-|BFS| [보물섬](https://www.acmicpc.net/problem/2589)                                                                     |
+|DFS|[나의 인생에는 수학과 함께](https://www.acmicpc.net/problem/17265)|
+|BFS| [보물섬](https://www.acmicpc.net/problem/2589)                          |
+|BFS|[회장뽑기](https://www.acmicpc.net/problem/2660)|
